@@ -2,6 +2,8 @@
 
 ## ToF demo for ST Disco
 
+[Code](https://github.com/micro-ROS/zephyr_apps/blob/foxy/apps/sensors_publisher/src/main.c)
+
 ```bash
 # Build the image
 # docker build demo_tof/ -t microros/rosindustrial:demo_tof
@@ -18,6 +20,8 @@ ros2 topic pub /sensors/led std_msgs/Bool '{data: 1}'
 
 ## Pingpong demo for ST Disco
 
+[Code](https://github.com/micro-ROS/zephyr_apps/blob/foxy/apps/ping_pong/src/main.c)
+
 ```bash
 # Build the image
 # docker build demo_pingpong_st/ -t microros/rosindustrial:demo_pingpong_st
@@ -31,6 +35,8 @@ ros2 topic echo /microROS/ping
 ```
 
 ## Pingpong demo for RCLC
+
+[Code](https://github.com/micro-ROS/rclc/blob/feature/ping_pong_demo/rclc_examples/src/example_pingpong.c)
 
 ```bash
 # Build the image
